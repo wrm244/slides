@@ -3,7 +3,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://wrm244.gxist.cn/",
+  hostname: "https://wrm244.gxist.cn/slides/",
 
   author: {
     name: "RiverMountain",
