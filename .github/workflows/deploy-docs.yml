@@ -44,7 +44,8 @@ jobs:
           folder: src/.vuepress/dist
           token: ${{ secrets.ACCESS_TOKEN }}
           repository-name: wrm244/slides
-  sync-2-gitee:
+  
+sync-2-gitee:
     needs: jobs
     runs-on: ubuntu-latest
     steps:
@@ -59,7 +60,7 @@ jobs:
           # 注意替换为你的 Gitee 目标仓库地址
           destination-repo: git@gitee.com:wrm244/slides.git
   
-  reload-pages:
+reload-pages:
     needs: sync-2-gitee
     runs-on: ubuntu-latest
     steps:
