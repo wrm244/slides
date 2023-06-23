@@ -1,1 +1,0 @@
-import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{r as o,o as n,c as r,d as _}from"./app-8168a5e3.js";const c={};function s(a,m){const e=o("Presentation");return n(),r("div",null,[_(e,{id:"presentation-0",code:"eJwDAAAAAAE=",theme:"auto"})])}const d=t(c,[["render",s],["__file","C语言指针.html.vue"]]);export{d as default};
