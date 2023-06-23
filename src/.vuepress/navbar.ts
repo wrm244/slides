@@ -3,7 +3,7 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   {
     text: "返回主页",
-    icon: "lightbulb",
+    icon: "house",
     link: "https://wrm244.gxist.cn",
   },
   {

@@ -1,13 +1,18 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
-import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
+import { autoCatalogPlugin } from "vuepress-plugin-auto-catalog";
 export default defineUserConfig({
   base: "/slides/",
 
   lang: "zh-CN",
   title: "河山的幻灯片存档",
   description: "河山的技术幻灯片存档",
-
+  plugins: [
+    autoCatalogPlugin({
+      index:true,
+      
+    }),
+  ],
   theme,
   head: [
     // ...

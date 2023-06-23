@@ -5272,7 +5272,7 @@ vue@^3.2.47, vue@^3.3.2, vue@^3.3.4:
     "@vue/server-renderer" "3.3.4"
     "@vue/shared" "3.3.4"
 
-vuepress-plugin-auto-catalog@2.0.0-beta.227:
+vuepress-plugin-auto-catalog@2.0.0-beta.227, vuepress-plugin-auto-catalog@^2.0.0-beta.227:
   version "2.0.0-beta.227"
   resolved "https://registry.npmmirror.com/vuepress-plugin-auto-catalog/-/vuepress-plugin-auto-catalog-2.0.0-beta.227.tgz#ea66386221d38274d7edb79dbbab1157caa997fe"
   integrity sha512-g7aG71Jm3enkkZeHRYUNmBrdytZs3B79YOTXhkWHQHPFN0RoIbAXsvcqIM5KnGeahu8VH2xyMBQLlMyVLddHww==
