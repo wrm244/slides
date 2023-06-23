@@ -41,13 +41,7 @@ export default hopeTheme({
 
   plugins: {
     // You should generate and use your own comment service
-    comment: {
-      provider: "Giscus",
-      repo: "wrm244/wrm244.github.io",
-      repoId: "R_kgDOJU98qQ",
-      category: "General",
-      categoryId: "DIC_kwDOJU98qc4CV3d1",
-    },
+    
 
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
