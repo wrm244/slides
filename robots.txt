@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://wrm244.gxist.cn/slides/sitemap.xml
